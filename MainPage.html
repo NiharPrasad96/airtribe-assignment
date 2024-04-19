@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Your Own Adventure</title>
+    <style>
+        h1,
+        h3,
+        h4,
+        h5,
+        table {
+            text-align: center;
+            font-style: italic;
+            font-family: Copperplate, Papyrus, cursive;
+
+        }
+
+        /* Create three equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 45%;
+            padding: 15px;
+        }
+
+        /* Clear floats after the columns */
+        .row::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="column">
+            <h1 style="font-size: xx-large;">HPCYOA!</h1>
+            <h3>The Harry Potter
+                Create Your Own Adventure!</h3>
+                <!-- Used main tag because it displays the main content and explanation of the page -->
+            <main>
+                The Harry Potter Create Your Own Adventure (HPCYOA) was built as a fun diversion, to explore the world
+                of Harry Potter in an interactive and exciting way.
+
+                In the <abbr title="Harry Potter Create Your Own Adventure">HPCYOA</abbr>, you are in control of your
+                own unique witch or wizard. Many decisions will confront you along your journey, and you will have
+                to choose wisely or face the dire, often deadly, consequences. Are you ready to get started?
+            </main>
+
+            <!-- here I can use both MENU tag or NAV tag but wanted to experiment with menu tag-->
+            <menu>
+                <ul
+                    style=" border: double;background-image: url('backgroundForMenu.jpg');align-content: center;">
+                    <li><a href="DarkForest.html">In The Dark Forest</a></li>
+                    <details>
+                        <summary>Creatures and Artifacts!</summary>
+                        <p>Tag along as a fellow Hogwards student where we explore the dark forest .Your choices decide
+                            whether you will encounter a beast or a treasure.</p>
+                    </details>
+                    <br /><br />
+                    <li><a href="Azkaban.html">Escape from Azkaban</a></li>
+                    <details>
+                        <summary>Escape with Serius Black!</summary>
+                        <p>You and your Cell mate Serius Black finally escaped the dementors but are you safe out here?
+                            Tag along to find out..</p>
+                    </details>
+                </ul>
+            </menu>
+        </div>
+        <div class="column">
+            <img src="harry-potter-choose-your-own-adventure-600x480.jpg" />
+        </div>
+    </div>
+    </div>
+
+    <!-- Using table tags to display quidditch statistics of each houses -->
+    
+    <table style="width: 100%;">
+        <tr>
+            <td>
+                <h5>Gryffindor Quidditch Statistics:</h5>
+                <table>
+                    <th>Position</th>
+                    <th>Player Name</th>
+                    <th>Goals Scored</th>
+                    <th>Assists</th>
+                    <th>Saves</th>
+                    <th>Fouls Committed</th>
+        </tr>
+        <tr>
+            <td>Seeker</td>
+            <td>Harry Potter</td>
+            <td>15</td>
+            <td>7</td>
+            <td>0</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>Keeper</td>
+            <td>Ron Weasley</td>
+            <td>0</td>
+            <td>3</td>
+            <td>25</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Chaser</td>
+            <td>Ginny Weasley</td>
+            <td>10</td>
+            <td>12</td>
+            <td>0</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Chaser</td>
+            <td>Hermione Granger</td>
+            <td>8</td>
+            <td>10</td>
+            <td>0</td>
+            <td>4</td>
+        </tr>
+    </table>
+    </td>
+    <td>
+        <h5>Hufflepuff Quidditch Statistics</h5>
+        <table>
+            <tr>
+                <th>Position</th>
+                <th>Player Name</th>
+                <th>Goals Scored</th>
+                <th>Assists</th>
+                <th>Saves</th>
+                <th>Fouls Committed</th>
+            </tr>
+            <tr>
+                <td>Seeker</td>
+                <td>Cedric Diggory</td>
+                <td>18</td>
+                <td>5</td>
+                <td>0</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Keeper</td>
+                <td>Hannah Abbott</td>
+                <td>0</td>
+                <td>2</td>
+                <td>27</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Chaser</td>
+                <td>Susan Bones</td>
+                <td>12</td>
+                <td>9</td>
+                <td>0</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Chaser</td>
+                <td>Ernie Macmillan</td>
+                <td>11</td>
+                <td>7</td>
+                <td>0</td>
+                <td>3</td>
+            </tr>
+        </table>
+    </td>
+    </tr>
+    <tr>
+        <td>
+            <h5>Ravenclaw Quidditch Statistics</h5>
+            <table>
+                <tr>
+                    <th>Position</th>
+                    <th>Player Name</th>
+                    <th>Goals Scored</th>
+                    <th>Assists</th>
+                    <th>Saves</th>
+                    <th>Fouls Committed</th>
+                </tr>
+                <tr>
+                    <td>Seeker</td>
+                    <td>Cho Chang</td>
+                    <td>20</td>
+                    <td>6</td>
+                    <td>0</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Keeper</td>
+                    <td>Roger Davies</td>
+                    <td>0</td>
+                    <td>4</td>
+                    <td>30</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Chaser</td>
+                    <td>Terry Boot</td>
+                    <td>13</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Chaser</td>
+                    <td>Padma Patil</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>0</td>
+                    <td>4</td>
+                </tr>
+            </table>
+        </td>
+        <td>
+            <h5>Slytherin Quidditch Statistics</h5>
+            <table>
+                <tr>
+                    <th>Position</th>
+                    <th>Player Name</th>
+                    <th>Goals Scored</th>
+                    <th>Assists</th>
+                    <th>Saves</th>
+                    <th>Fouls Committed</th>
+                </tr>
+                <tr>
+                    <td>Seeker</td>
+                    <td>Draco Malfoy</td>
+                    <td>17</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Keeper</td>
+                    <td>Miles Bletchley</td>
+                    <td>0</td>
+                    <td>3</td>
+                    <td>29</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Chaser</td>
+                    <td>Marcus Flint</td>
+                    <td>14</td>
+                    <td>7</td>
+                    <td>0</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Chaser</td>
+                    <td>Pansy Parkinson</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>0</td>
+                    <td>5</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    </table>
+    <footer>
+        <p>*J.K. Rowling generously gave permission for liberal use of her amazing Harry Potter books during the
+            COVID-19 pandemic. As such, I have created this for Airtribe Assignment. If J.K. Rowling, Jim Kay or any of
+            the amazing artists wish for me to remove any of their work, please send me an <abbr title="niharika.n.prasad@outlook.com">email</abbr></p>
+    </footer>
+</body>
+
+</html>
+<!--I have used the following HTML tags for this assignment <!DOCTYPE html>
+<html>
+<head>
+<meta>
+<title>
+<style>
+<body>
+<div>
+<h1>
+<h3>
+<main>
+<abbr>
+<menu>
+<ul>
+<li>
+<a>
+<details>
+<summary>
+<p>
+<img>
+<table>
+<tr>
+<th>
+<td>
+<footer>
+<p>
+<a>
+<button>
+<script>-->
